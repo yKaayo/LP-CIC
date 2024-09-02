@@ -1,6 +1,8 @@
 :root {
   --color-primary-blue: #0063f7;
+  --color-primary-blue-75: #0063f775;
   --color-primary-gray: #4e4e4e;
+  --color-primary-gray-50: #4e4e4e50;
   --color-secundary-gray: #747474;
   --color-light: #fff;
   --color-focus-ring: #74747425;
@@ -17,6 +19,15 @@
 }
 .p-20px {
   padding: 1.2rem;
+}
+
+/* Button */
+.btn:first-child:active, :not(.btn-check)+.btn:active {
+  border-color: transparent;
+}
+
+.btn-close:focus {
+  box-shadow: none;
 }
 
 /* Input */
@@ -59,6 +70,10 @@ form input.focus-ring:focus {
 
   &:hover {
     padding-bottom: .2rem;
+    border-color: var(--color-primary-blue-75);
+  }
+
+  &:focus {
     border-color: var(--color-primary-blue);
   }
 }
@@ -83,6 +98,7 @@ form input.focus-ring:focus {
 
 /* Eye - Show and Hide */
 #eye {
-  top: 62%;
+  bottom: 11.9rem;
   right: 2.22rem;
 }
+

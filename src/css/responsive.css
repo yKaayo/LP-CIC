@@ -1,13 +1,1 @@
-/* Eye - Show and Hide */
-@media (width <= 346px) {
-  #eye {
-    top: 62.4%;
-  }
-}
 
-/*  */
-@media (width <= 430px) {
-    #register-title {
-        font-size: 1.4rem;
-    }
-}
